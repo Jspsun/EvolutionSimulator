@@ -13,7 +13,7 @@ var poison=[]
 var debug;
 
 function setup() {
-  createCanvas(640,360);
+  createCanvas(3*windowWidth/4,windowHeight);
   for (var i=0;i<50;i++){
     var x= random(width);
     var y = random(height);
@@ -82,4 +82,8 @@ function draw() {
     }
 
   }
+}
+
+function windowResized() {
+  resizeCanvas(3*windowWidth/4, windowHeight);
 }

@@ -5,7 +5,7 @@ function Vehicle(x,y,dna) {
   this.velocity = createVector(0,-2);
   this.position = createVector(x,y);
   this.r = 4;
-  this.maxspeed = 5;
+  this.maxspeed = 3;
   this.maxforce = 0.5;
 
   this.health=1;
@@ -167,20 +167,20 @@ function Vehicle(x,y,dna) {
   }
 
   this.boundaries = function() {
-    var d = 25;
+    var distanceFromEdge = 0;
     var desired = null;
 
-    if (this.position.x < d) {
+    if (this.position.x < distanceFromEdge) {
       desired = createVector(this.maxspeed, this.velocity.y);
     }
-    else if (this.position.x > width -d) {
+    else if (this.position.x > width -distanceFromEdge) {
       desired = createVector(-this.maxspeed, this.velocity.y);
     }
 
-    if (this.position.y < d) {
+    if (this.position.y < distanceFromEdge) {
       desired = createVector(this.velocity.x, this.maxspeed);
     }
-    else if (this.position.y > height-d) {
+    else if (this.position.y > height-distanceFromEdge) {
       desired = createVector(this.velocity.x, -this.maxspeed);
     }
 
