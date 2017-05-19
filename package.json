@@ -1,0 +1,19 @@
+{
+  "name": "evolutionsimulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jspsun/EvolutionSimulator.git"
+  },
+  "author": "jspsun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jspsun/EvolutionSimulator/issues"
+  },
+  "homepage": "https://github.com/Jspsun/EvolutionSimulator#readme"
+}
