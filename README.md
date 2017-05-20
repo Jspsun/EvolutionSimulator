@@ -1,7 +1,7 @@
 # Evolution Simulator
 ![demo gif](Img/EvoSimDemo.gif)
 
-[LIVE DEMO!](https://evolutionsimulator.herokuapp.com/)
+## [LIVE DEMO!](https://evolutionsimulator.herokuapp.com/)
 Look! I made an evolution Simulator!   
 
 ## How it works
